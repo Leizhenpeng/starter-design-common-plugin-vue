@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "useDefineForClassFields": true,
+        "allowSyntheticDefaultImports": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "strict": true,
+        "jsx": "preserve",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "lib": ["esnext", "dom"],
+        "skipLibCheck": true,
+        "allowJs": true,
+        "types": [
+            "vite/client",
+            "vitest/importMeta",
+            "@mastergo/plugin-typings/dist/index",
+            "@figma/plugin-typings/index",
+            "@jsdesigndeveloper/plugin-typings/index"
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "~/*": ["src/*"]
+        }
+    },
+    "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "*.d.ts", "hook/**/*.ts", "common/**/*.ts"],
+    "references": [{ "path": "./tsconfig.node.json" }]
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Desgin Common Plugin Starter",
+    "id": "FQIf0orKCdo-Y_97KKvsJ",
+    "api": "1.0.0",
+    "main": ".appscript/code.js",
+    "ui": ".appscript/index.html"
+}
