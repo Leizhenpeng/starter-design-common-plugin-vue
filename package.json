@@ -4,7 +4,7 @@
     "author": "river <laolei@forkway.cn>",
     "license": "MIT",
     "description": "A Starter Template For Jsdesign or Figma Plugin Power By Vue",
-    "repository": "https://github.com/leizhenpeng/starter_desgin_common_vue",
+    "repository": "https://github.com/Leizhenpeng/starter-design-common-plugin-vuee",
     "type": "module",
     "engines": {
         "node": "^14.18.0 || >=16.0.0"
